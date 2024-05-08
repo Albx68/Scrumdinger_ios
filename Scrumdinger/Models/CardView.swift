@@ -19,7 +19,6 @@ struct CardView: View {
                     .labelStyle(.trailingIcon)
                     .accessibilityLabel("\(scrum.lengthInMinutes) minute remaining")
 
-
             }.font(.caption)
         }.padding()
             .foregroundColor(scrum.theme.accentColor)
